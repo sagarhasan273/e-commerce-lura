@@ -162,8 +162,8 @@ export const products: Product[] = [
     description: "Monitor your home with clarity and confidence using our Smart Home Security Camera. Featuring 1080p HD video, night vision, and a 130° wide-angle lens, this camera captures detailed footage day or night. Motion detection with customizable zones sends alerts to your smartphone, while two-way audio allows you to communicate with visitors. Compatible with major smart home systems and includes free cloud storage for the past 24 hours of footage.",
     shortDescription: "HD security camera with night vision, motion detection, and smartphone alerts.",
     images: [
+      "https://images.pexels.com/photos/325153/pexels-photo-325153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "https://images.pexels.com/photos/3527578/pexels-photo-3527578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/325153/pexels-photo-325153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     ],
     category: 5,
     featured: false,

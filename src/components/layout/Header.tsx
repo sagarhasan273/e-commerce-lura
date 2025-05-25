@@ -56,7 +56,7 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <Link to="/" className="text-2xl font-semibold text-primary-900">
-            LUXE
+            LURA
           </Link>
           
           {/* Desktop Navigation */}
@@ -147,7 +147,7 @@ const Header: React.FC = () => {
       >
         <div className="container-custom py-4 flex justify-between items-center border-b">
           <Link to="/" className="text-2xl font-semibold text-primary-900">
-            LUXE
+            LURA
           </Link>
           <button 
             className="text-primary-800" 

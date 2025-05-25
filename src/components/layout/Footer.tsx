@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About Section */}
           <div>
-            <h3 className="text-xl font-semibold mb-4">LUXE</h3>
+            <h3 className="text-xl font-semibold mb-4">LURA</h3>
             <p className="text-primary-300 mb-4">
               Premium quality products curated for the modern lifestyle. Discover the perfect balance of style, comfort, and functionality.
             </p>
@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-primary-300">
                 <Mail size={16} />
-                <span>support@luxe.com</span>
+                <span>support@lura.com</span>
               </li>
               <li className="flex items-center gap-2 text-primary-300">
                 <Phone size={16} />
@@ -107,7 +107,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-primary-800 mt-8 pt-6 text-center md:text-left md:flex justify-between items-center">
           <p className="text-primary-400 text-sm">
-            &copy; {new Date().getFullYear()} LUXE. All rights reserved.
+            &copy; {new Date().getFullYear()} LURA. All rights reserved.
           </p>
           <div className="mt-2 md:mt-0">
             <ul className="flex flex-wrap justify-center md:justify-end gap-4 text-sm text-primary-400">
