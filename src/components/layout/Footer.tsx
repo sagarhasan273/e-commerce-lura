@@ -31,22 +31,22 @@ const Footer: React.FC = () => {
             <h4 className="font-semibold mb-4">Shop</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/products" className="text-primary-300 hover:text-white transition-colors">
+                <Link to="/e-commerce-lura/products" className="text-primary-300 hover:text-white transition-colors">
                   All Products
                 </Link>
               </li>
               <li>
-                <Link to="/products?category=1" className="text-primary-300 hover:text-white transition-colors">
+                <Link to="/e-commerce-lura/products?category=1" className="text-primary-300 hover:text-white transition-colors">
                   New Arrivals
                 </Link>
               </li>
               <li>
-                <Link to="/products?category=2" className="text-primary-300 hover:text-white transition-colors">
+                <Link to="/e-commerce-lura/products?category=2" className="text-primary-300 hover:text-white transition-colors">
                   Featured
                 </Link>
               </li>
               <li>
-                <Link to="/products?onSale=true" className="text-primary-300 hover:text-white transition-colors">
+                <Link to="/e-commerce-lura/products?onSale=true" className="text-primary-300 hover:text-white transition-colors">
                   Sale
                 </Link>
               </li>

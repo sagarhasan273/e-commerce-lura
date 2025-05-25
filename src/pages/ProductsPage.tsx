@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Filter, X, SortAsc, SortDesc, Grid, List } from 'lucide-react';
+import { Filter, X, Grid, List } from 'lucide-react';
 import ProductGrid from '../components/products/ProductGrid';
 import Button from '../components/ui/Button';
 import { Product, products } from '../data/products';

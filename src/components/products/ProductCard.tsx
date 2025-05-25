@@ -32,7 +32,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   
   return (
     <Link 
-      to={`/products/${product.id}`} 
+      to={`/e-commerce-lura/products/${product.id}`} 
       className="group"
     >
       <div className="card product-card-animation overflow-hidden">

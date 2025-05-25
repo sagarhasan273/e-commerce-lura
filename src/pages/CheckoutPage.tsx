@@ -52,7 +52,7 @@ const CheckoutPage: React.FC = () => {
         <p className="text-primary-600 mb-8">
           Add some items to your cart before proceeding to checkout.
         </p>
-        <Link to="/products">
+        <Link to="/e-commerce-lura/products">
           <Button variant="primary">
             Browse Products
           </Button>

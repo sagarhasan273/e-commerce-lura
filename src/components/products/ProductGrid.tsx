@@ -13,7 +13,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
   products, 
   title, 
   showViewAll = false, 
-  viewAllLink = '/products'
+  viewAllLink = '/e-commerce-lura/products'
 }) => {
   return (
     <div className="mb-10">

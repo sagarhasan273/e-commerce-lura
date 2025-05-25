@@ -73,7 +73,7 @@ const ProductDetailPage: React.FC = () => {
       <div className="container-custom py-16 text-center">
         <h2 className="text-2xl font-semibold mb-4">Product Not Found</h2>
         <p className="mb-6">Sorry, the product you're looking for doesn't exist.</p>
-        <Link to="/products">
+        <Link to="/e-commerce-lura/products">
           <Button variant="primary">Browse Products</Button>
         </Link>
       </div>
@@ -88,9 +88,9 @@ const ProductDetailPage: React.FC = () => {
       <div className="bg-primary-50 py-3">
         <div className="container-custom">
           <div className="flex items-center text-sm text-primary-600">
-            <Link to="/" className="hover:text-primary-800">Home</Link>
+            <Link to="/e-commerce-lura/" className="hover:text-primary-800">Home</Link>
             <ChevronRight size={14} className="mx-1" />
-            <Link to="/products" className="hover:text-primary-800">Products</Link>
+            <Link to="/e-commerce-lura/products" className="hover:text-primary-800">Products</Link>
             {category && (
               <>
                 <ChevronRight size={14} className="mx-1" />
@@ -109,7 +109,7 @@ const ProductDetailPage: React.FC = () => {
       </div>
       
       <div className="container-custom py-8">
-        <Link to="/products" className="inline-flex items-center text-primary-600 hover:text-primary-800 mb-6">
+        <Link to="/e-commerce-lura/products" className="inline-flex items-center text-primary-600 hover:text-primary-800 mb-6">
           <ArrowLeft size={16} className="mr-1" /> Back to Products
         </Link>
         

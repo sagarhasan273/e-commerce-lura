@@ -17,7 +17,7 @@ const PromotionBanner: React.FC = () => {
             <p className="text-white text-lg max-w-xl mb-6">
               Explore our latest arrivals, designed for the warmer days ahead. Limited quantities available.
             </p>
-            <Link to="/products?newArrival=true">
+            <Link to="/e-commerce-lura/products?newArrival=true">
               <Button variant="accent" size="lg">
                 Shop the Collection
               </Button>

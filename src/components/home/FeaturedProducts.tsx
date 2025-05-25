@@ -18,7 +18,7 @@ const FeaturedProducts: React.FC = () => {
         <ProductGrid 
           products={featuredProducts} 
           showViewAll={true} 
-          viewAllLink="/products?featured=true"
+          viewAllLink="/e-commerce-lura/products?featured=true"
         />
       </div>
     </section>

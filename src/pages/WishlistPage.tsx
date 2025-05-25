@@ -26,7 +26,7 @@ const WishlistPage: React.FC = () => {
           <p className="text-primary-600 mb-8">
             Save items you love for later by clicking the heart icon on any product.
           </p>
-          <Link to="/products">
+          <Link to="/e-commerce-lura/products">
             <Button variant="primary" size="lg">
               Explore Products
             </Button>
@@ -149,7 +149,7 @@ const WishlistPage: React.FC = () => {
             Clear Wishlist
           </button>
           
-          <Link to="/products" className="text-primary-600 hover:text-primary-800 text-sm font-medium">
+          <Link to="/e-commerce-lura/products" className="text-primary-600 hover:text-primary-800 text-sm font-medium">
             Continue Shopping
           </Link>
         </div>

@@ -20,7 +20,7 @@ const CartPage: React.FC = () => {
           <p className="text-primary-600 mb-8">
             Looks like you haven't added any products to your cart yet.
           </p>
-          <Link to="/products">
+          <Link to="/e-commerce-lura/products">
             <Button variant="primary" size="lg">
               Start Shopping
             </Button>
@@ -140,7 +140,7 @@ const CartPage: React.FC = () => {
                 Clear Cart
               </button>
               
-              <Link to="/products" className="text-primary-600 hover:text-primary-800 text-sm font-medium">
+              <Link to="/e-commerce-lura/products" className="text-primary-600 hover:text-primary-800 text-sm font-medium">
                 Continue Shopping
               </Link>
             </div>
@@ -171,7 +171,7 @@ const CartPage: React.FC = () => {
               </div>
             </div>
             
-            <Link to="/checkout">
+            <Link to="/e-commerce-lura/checkout">
               <Button variant="accent" size="lg" fullWidth>
                 Proceed to Checkout
               </Button>

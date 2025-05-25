@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link to="/products">
+            <Link to="/e-commerce-lura/products">
               <Button 
                 variant="accent" 
                 size="lg" 
@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
                 Shop Now
               </Button>
             </Link>
-            <Link to="/products?category=1">
+            <Link to="/e-commerce-lura/products?category=1">
               <Button 
                 variant="outline" 
                 size="lg"

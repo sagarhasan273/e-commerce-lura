@@ -17,7 +17,7 @@ const CategorySection: React.FC = () => {
           {categories.slice(0, 3).map((category) => (
             <Link 
               key={category.id}
-              to={`/products?category=${category.id}`}
+              to={`/e-commerce-lura/products?category=${category.id}`}
               className="group relative overflow-hidden rounded-lg aspect-[3/4] bg-primary-900"
             >
               <img 

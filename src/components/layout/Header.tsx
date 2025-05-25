@@ -55,13 +55,13 @@ const Header: React.FC = () => {
         
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <Link to="/" className="text-2xl font-semibold text-primary-900">
+          <Link to="/e-commerce-lura/" className="text-2xl font-semibold text-primary-900">
             LURA
           </Link>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-6">
-            <Link to="/" className="nav-link">Home</Link>
+            <Link to="/e-commerce-lura/" className="nav-link">Home</Link>
             <div className="relative group">
               <button 
                 className="nav-link flex items-center gap-1"
@@ -77,7 +77,7 @@ const Header: React.FC = () => {
                 {categories.map((category) => (
                   <Link 
                     key={category.id}
-                    to={`/products?category=${category.id}`}
+                    to={`/e-commerce-lura/products?category=${category.id}`}
                     className="hover:text-accent-500 py-1"
                     onClick={() => setIsCategoryOpen(false)}
                   >
@@ -86,7 +86,7 @@ const Header: React.FC = () => {
                 ))}
               </div>
             </div>
-            <Link to="/products" className="nav-link">All Products</Link>
+            <Link to="/e-commerce-lura/products" className="nav-link">All Products</Link>
           </nav>
           
           {/* Search Bar - Desktop */}
@@ -110,14 +110,14 @@ const Header: React.FC = () => {
           
           {/* Icons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Link to="/wishlist" className="text-primary-700 hover:text-accent-500 transition-colors">
+            <Link to="/e-commerce-lura/wishlist" className="text-primary-700 hover:text-accent-500 transition-colors">
               <Heart size={20} />
             </Link>
-            <Link to="/account" className="text-primary-700 hover:text-accent-500 transition-colors">
+            <Link to="/e-commerce-lura/account" className="text-primary-700 hover:text-accent-500 transition-colors">
               <User size={20} />
             </Link>
             <Link 
-              to="/cart" 
+              to="/e-commerce-lura/cart" 
               className="text-primary-700 hover:text-accent-500 transition-colors relative"
             >
               <ShoppingCart size={20} />
@@ -146,7 +146,7 @@ const Header: React.FC = () => {
         }`}
       >
         <div className="container-custom py-4 flex justify-between items-center border-b">
-          <Link to="/" className="text-2xl font-semibold text-primary-900">
+          <Link to="/e-commerce-lura/" className="text-2xl font-semibold text-primary-900">
             LURA
           </Link>
           <button 
@@ -175,8 +175,8 @@ const Header: React.FC = () => {
           </form>
           
           <nav className="flex flex-col space-y-4">
-            <Link to="/" className="py-2 border-b border-primary-100">Home</Link>
-            <Link to="/products" className="py-2 border-b border-primary-100">All Products</Link>
+            <Link to="/e-commerce-lura/" className="py-2 border-b border-primary-100">Home</Link>
+            <Link to="/e-commerce-lura/products" className="py-2 border-b border-primary-100">All Products</Link>
             
             {/* Categories */}
             <div className="py-2 border-b border-primary-100">
@@ -192,7 +192,7 @@ const Header: React.FC = () => {
                 {categories.map((category) => (
                   <Link 
                     key={category.id}
-                    to={`/products?category=${category.id}`}
+                    to={`/e-commerce-lura/products?category=${category.id}`}
                     className="block py-1"
                   >
                     {category.name}
@@ -201,13 +201,13 @@ const Header: React.FC = () => {
               </div>
             </div>
             
-            <Link to="/wishlist" className="py-2 border-b border-primary-100 flex items-center gap-2">
+            <Link to="/e-commerce-lura/wishlist" className="py-2 border-b border-primary-100 flex items-center gap-2">
               <Heart size={18} /> Wishlist
             </Link>
-            <Link to="/account" className="py-2 border-b border-primary-100 flex items-center gap-2">
+            <Link to="/e-commerce-lura/account" className="py-2 border-b border-primary-100 flex items-center gap-2">
               <User size={18} /> My Account
             </Link>
-            <Link to="/cart" className="py-2 border-b border-primary-100 flex items-center gap-2">
+            <Link to="/e-commerce-lura/cart" className="py-2 border-b border-primary-100 flex items-center gap-2">
               <ShoppingCart size={18} /> Cart ({cartItemsCount})
             </Link>
           </nav>

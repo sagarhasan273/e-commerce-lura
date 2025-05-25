@@ -22,7 +22,7 @@ const HomePage: React.FC = () => {
             products={newArrivals} 
             title="New Arrivals" 
             showViewAll={true} 
-            viewAllLink="/products?newArrival=true"
+            viewAllLink="/e-commerce-lura/products?newArrival=true"
           />
         </div>
       </section>
@@ -35,7 +35,7 @@ const HomePage: React.FC = () => {
             products={onSaleProducts} 
             title="On Sale" 
             showViewAll={true} 
-            viewAllLink="/products?onSale=true"
+            viewAllLink="/e-commerce-lura/products?onSale=true"
           />
         </div>
       </section>

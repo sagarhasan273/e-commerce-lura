@@ -14,12 +14,12 @@ const NotFoundPage: React.FC = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link to="/">
+          <Link to="/e-commerce-lura/">
             <Button variant="primary" leftIcon={<Home size={18} />}>
               Back to Home
             </Button>
           </Link>
-          <Link to="/products">
+          <Link to="/e-commerce-lura/products">
             <Button variant="outline" leftIcon={<Search size={18} />}>
               Browse Products
             </Button>

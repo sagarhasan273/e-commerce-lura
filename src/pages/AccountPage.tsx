@@ -182,9 +182,12 @@ const AccountPage: React.FC = () => {
                 <p className="text-primary-600 mb-6">
                   When you place orders, they will appear here.
                 </p>
-                <Button variant="primary" href="/products">
+                <a
+                  href="/e-commerce-lura/products"
+                  className="inline-flex items-center justify-center rounded-md bg-primary-600 px-4 py-2 text-sm font-medium text-white shadow transition-colors hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-2"
+                >
                   Start Shopping
-                </Button>
+                </a>
               </div>
             )}
           </div>
